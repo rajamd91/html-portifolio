@@ -1,0 +1,46 @@
+:root{
+    --primecolour:#1b1f24;
+    --textcolour:#b3b4b6;
+    
+}
+.{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header strats */
+header{
+    background-color: var(--primecolour);
+    color: var(--textcolour);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+    display: flex
+    
+    }
+ul li{
+    margin-right: 20px;
+    text-transform: uppercase;
+    
+    
+    
+    
+    
+}
+ul li a{
+   
+   text-decoration: none;
+   color: var(--textcolour);
+   font-weight: 900;
+
+}
+ul li a:hover{
+    color: red;
+    cursor: cell;
+}
