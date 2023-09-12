@@ -56,3 +56,20 @@ header button{
     background-color: var(--secondarycolor);
     border-radius: 50%;
 }
+/* header ends */
+/* main starts */
+section.middle{
+    background-color: var(--primecolour);
+    color: var(--textcolour);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section h2.tle{
+    text-transform: capitalize;
+    color: var(--secondarycolor);
+    font-weight: bolder;
+}
+section p.disc{
+    color: aquamarine;
+}
