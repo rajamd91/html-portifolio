@@ -1,6 +1,7 @@
 :root{
     --primecolour:#1b1f24;
-    --textcolour:#b3b4b6;
+    --textcolour: #fdfdfe;
+    --secondarycolor:#12bafc;
     
 }
 .{
@@ -19,6 +20,12 @@ header{
     align-items: center;
 
 }
+.roll{
+    color: var(--textcolour);
+    font-size: larger;
+    font-weight: bold;
+}
+
 ul{
     list-style: none;
     display: flex
@@ -42,5 +49,10 @@ ul li a{
 }
 ul li a:hover{
     color: red;
-    cursor: cell;
+    cursor: pointer;
+}
+header button{
+    padding: 10px;
+    background-color: var(--secondarycolor);
+    border-radius: 50%;
 }
