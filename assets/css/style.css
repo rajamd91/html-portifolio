@@ -72,4 +72,23 @@ section h2.tle{
 }
 section p.disc{
     color: aquamarine;
+    text-transform: capitalize;
+}
+ul.icons{
+    padding: 0px;
+    margin: 20px 0;
+}
+.hero_image{
+    /* border-radius: 50%; */
+    /* transform: rotate(-20deg); */
+   /* margin: 10px 0;  */
+    
+}
+.herobtn{
+    padding: 5px 30px;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+    background-color: var(--secondarycolor);
+    border-radius: 40%;
 }
