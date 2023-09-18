@@ -2,11 +2,9 @@
     --primecolour:#1b1f24;
     --textcolour: #b1b1c5;
     --secondarycolor:#12bafc;
-<<<<<<< HEAD
     --blacklight:#22282f;
-=======
     --textcolor1:#d6d6e3;
->>>>>>> 72523150da394cb0bbcd7ab16440283a3c831bc9
+
     
 }
 .{
@@ -141,7 +139,6 @@ text-align: center;
     opacity: 0.9;  
 }  
     
-=======
 .fa {  
     text-align: center;  
       /* margin: 5px;   */
@@ -193,7 +190,6 @@ text-align: center;
     .fa:hover {  
         opacity: 0.9;  
     }  
->>>>>>> 72523150da394cb0bbcd7ab16440283a3c831bc9
 ul.icons{
     padding: 0px;
     margin: 20px 0;
@@ -210,8 +206,11 @@ ul.icons{
     font-size: large;
     font-weight: bold;
     background-color: var(--secondarycolor);
-<<<<<<< HEAD
     border-radius: 40%;
+}
+.herobtn:hover{
+  cursor: pointer;
+
 }
 /* biodata section */
 .biodata_section{
@@ -228,12 +227,30 @@ ul.icons{
     /* margin-top: 20px; */
 
 }
-.work_image{
-    /* margin: 0 0 200px 0 ; */
-=======
-    border-radius: 50%;
+.mail{
+  text-decoration: none;
+  color: white;
+  text-transform: none;
+  
 }
-.herobtn:hover{
-    cursor: pointer;
->>>>>>> 72523150da394cb0bbcd7ab16440283a3c831bc9
+.biodata_image{
+    /* margin: 0 0 200px 0 ; */
+
+    
+}
+/* biodata ends */
+/* sevice section starts */
+.service_section{
+  background-color: var(--primecolour);
+  color: white;
+}
+.available_service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.icons{
+  background-color: white;
+  border-radius: 20%;
 }
