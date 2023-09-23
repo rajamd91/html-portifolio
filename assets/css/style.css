@@ -75,8 +75,9 @@ section.middle{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* border:solid 1px #d7a4a4; */
 }
-section h2.tle{
+.tle{
     text-transform: capitalize;
     color: var(--secondarycolor);
     font-weight: bolder;
@@ -85,121 +86,8 @@ section p.disc{
     color: aquamarine;
     text-transform: capitalize;
 }
-<<<<<<< HEAD
 
-        .fa {  
-text-align: center;  
-  /* margin: 5px;   */
-  /* font-size: 50px;   */
-  width: 30px;
-  height: 30px;
-  padding: 13px 5px 0px 3px;
-  border-radius: 50%;
-  
-}  
-.fa-facebook {  
-  background: #3B5998;  
-  color: white;
-    
-}  
-.fa-twitter {  
-  background: #55ACEE;  
-  color: white;  
-}  
-.fa-pinterest {  
-  background: #cb2027;  
-  color: white;  
-}  
-.fa-linkedin {  
-  background: #007bb5;  
-  color: white;  
-}  
-.fa-instagram {  
-  background: #125688;  
-  color: white;  
-}  
-.fa-youtube {  
-  background: #bb0000;  
-  color: white;  
-}  
-.fa-google {  
-  background: #dd4b39;  
-  color: white;  
-}  
-.fa-snapchat-ghost {  
-  background: #fffc00;  
-  color: white;  
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-}  
-.fa-skype {  
-  background: #00aff0;  
-  color: white;  
-}  
-.fa:hover {  
-    opacity: 0.9;  
-}  
-    
-.fa {  
-    text-align: center;  
-      /* margin: 5px;   */
-      /* font-size: 50px;   */
-      width: 30px;
-      height: 30px;
-      padding: 13px 5px 0px 3px;
-      border-radius: 50%;
-      
-    }  
-    .fa-facebook {  
-      background: #3B5998;  
-      color: white;
-        
-    }  
-    .fa-twitter {  
-      background: #55ACEE;  
-      color: white;  
-    }  
-    .fa-pinterest {  
-      background: #cb2027;  
-      color: white;  
-    }  
-    .fa-linkedin {  
-      background: #007bb5;  
-      color: white;  
-    }  
-    .fa-instagram {  
-      background: #125688;  
-      color: white;  
-    }  
-    .fa-youtube {  
-      background: #bb0000;  
-      color: white;  
-    }  
-    .fa-google {  
-      background: #dd4b39;  
-      color: white;  
-    }  
-    .fa-snapchat-ghost {  
-      background: #fffc00;  
-      color: white;  
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-    }  
-    .fa-skype {  
-      background: #00aff0;  
-      color: white;  
-    }  
-    .fa:hover {  
-        opacity: 0.9;  
-    }  
-ul.icons{
-    padding: 0px;
-    margin: 20px 0;
-}
-.hero_image{
-    /* border-radius: 50%; */
-    /* transform: rotate(-20deg); */
-   /* margin: 10px 0;  */
-    
-}
+
 .herobtn{
     padding: 5px 30px;
     text-transform: capitalize;
@@ -217,8 +105,9 @@ ul.icons{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--blacklight);
-    color: white;
-    padding: 50px 150px;
+    color: var(--textcolor1);
+    padding: 50px 150px 0 150px;
+    
 }
 .biodata_text{
     text-transform: capitalize;
@@ -229,7 +118,7 @@ ul.icons{
 }
 .mail{
   text-decoration: none;
-  color: white;
+  color: var(--textcolor1);
   text-transform: none;
   
 }
@@ -243,14 +132,44 @@ ul.icons{
 .service_section{
   background-color: var(--primecolour);
   color: white;
+  color: var(--textcolor1);
+  /* display: flex; */
+  
+}
+.my_service{
+    margin: 0%;
+    padding: 40px;
+    
+   
 }
 .available_service{
   display: flex;
-  justify-content: center;
+  
+  /* flex-flow: nowrap;
+  justify-content: space-evenly; */
+  /* justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 30px; */
+  padding: 30px;
+  justify-content: center;
+  
+  
 }
-.icons{
+/* .icons{
   background-color: white;
   border-radius: 20%;
+} */
+.service_section h1{
+  /* color: red; */
+  text-align: center;
+  
+  
+}
+.available_service div{
+    border: solid 5px #d7a4a4;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    
 }
