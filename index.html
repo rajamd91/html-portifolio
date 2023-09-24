@@ -12,7 +12,7 @@
   </head>
   <body>
    <!-- header starts -->
-   <header>
+   <header id="navbar">
     <div>
         <span class="roll">Developer</span>
     </div>
@@ -22,10 +22,13 @@
             <li><a href="./index.html">home</a></li>
             
             
-            <li><a href="./about.html">about</a></li>
+            <li><a href="#biodata">about</a></li>
+
+
+            <li><a href="#projects">Projects</a></li>
             
             
-            <li><a href="./contact.html">contact</a></li>
+            <li><a href="#contact">contact</a></li>
             
         </ul>
     </div>
@@ -38,7 +41,7 @@
    <!-- main starts -->
    <main>
     <section class="middle">
-        <div>
+        <div class="middle_desc">
             <div>
             <h2>Hi,there!</h2>
             <h1 class="tle">i'm nazir ahmed</h1>
@@ -76,20 +79,22 @@
             </div>
             <div >
                 <button class="herobtn">hire me</button>
-                <button class="herobtn">know more</button>
+                <!-- <button class="herobtn">know more</button> -->
             </div>
         </div>
-        <img src="./assets/image/n1 (2).png" alt="nazir ahmed">
+        <div>
+          <img src="./assets/image/n1 (2).png" alt="nazir ahmed">
+        </div>
     </section>
    </main>
    <!-- biodata section -->
-    <section class="biodata_section">
+    <section class="biodata_section" id="biodata">
       <div class="biodata_image">
         <img  src="./assets/image/n1 (1).png" alt="nazir">
       </div>
         
       <div class="biodata_text">
-        <h2>i'am a backend developer</h2>
+        <h2>i'am a <span>backend developer</span> </h2>
         <h4>
           <span >name:</span>nazir ahmed
         </h4>
@@ -115,15 +120,16 @@
    <!-- biodata section ends -->
    <!-- service section starts -->
    
-   <section class="service_section">
+   <section class="service_section" id="projects">
     <div>
       <h1 class="my_service"> 
-        My Services
+        My Projects
       </h1>
     </div>
      
     <div class="available_service">
       <div>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
         
         <h2>
           E-Commerce Application
@@ -136,7 +142,7 @@
         </button>
       </div>
       <div>
-        
+        <a href="#"><i class="fa-solid fa-book"></i></a>
         <h2>
           Online Book Store
         </h2>
@@ -148,7 +154,7 @@
         </button>
       </div>
       <div>
-       
+        <a href="#"><i class="fa-solid fa-taxi"></i></a>
         <h2>
           Cab Booking System
         </h2>
@@ -161,10 +167,39 @@
       </div>
     </div>
   </section>
+  <!-- contact section starts -->
+  <section class="contact_form" id="contact">
+    <div>Contact Form</div>
+    <div>
+      <form action="#" onsubmit="return validateForm()" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="abc@me.com" required><br>
+        <label for="phone">Mobile number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="91-1234567890" pattern="[0-9]{2}-[0-9]{10}" required><br>
+        <label for="desc">Description:</label><br>
+        <textarea name="desc" id="desc" cols="21" rows="3" placeholder="Writing Somthing" required></textarea><br>
+        <input class="herobtn" type="submit" value="SUBMIT">
+        
+      
+      
+      </form>
+    </div>
+    
+      
+    
+    
+
+  </section>
+  <footer>
+    <h4>
+      Copyright & Copy;2023- <a href="https://github.com/rajamd91/html-portifolio" target="_blank">Nazir Ahmed  </a> -All Right Reserved.
+    </h4>
+  </footer>
   </body>    
     
     
-   
    
 
 </html>

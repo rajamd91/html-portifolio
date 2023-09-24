@@ -10,17 +10,22 @@
 .{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    
+    
+}
+html{
+    /* scroll-behavior: smooth; */
 }
 
 /* header strats */
 header{
     background-color: var(--primecolour);
     color: var(--textcolour);
-    padding: 20px;
+    /* padding: 10px 0; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 
 }
 .roll{
@@ -67,15 +72,28 @@ ul li a:hover{
     font-weight: bold;
     color: black;
 }
+#navbar{
+    position: fixed;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+
+}
 /* header ends */
 /* main starts */
 section.middle{
     background-color: var(--primecolour);
     color: var(--textcolor1);
     display: flex;
-    justify-content: space-around;
+    padding: 60px 0 0 20px;
+    
+    width: 100%;
+    justify-content: center;
     align-items: center;
     /* border:solid 1px #d7a4a4; */
+}
+.middle_desc{
+    padding: 20px 30px;
 }
 .tle{
     text-transform: capitalize;
@@ -86,14 +104,19 @@ section p.disc{
     color: aquamarine;
     text-transform: capitalize;
 }
-
+main ul li{
+    padding: 0 10px;
+    margin-left: -20px;
+}
 
 .herobtn{
-    padding: 5px 30px;
+    padding: 10px;
     text-transform: capitalize;
     font-size: large;
     font-weight: bold;
     background-color: var(--secondarycolor);
+    height: 40px;
+    width: 150px;
     border-radius: 40%;
 }
 .herobtn:hover{
@@ -106,7 +129,8 @@ section p.disc{
     justify-content: space-evenly;
     background-color: var(--blacklight);
     color: var(--textcolor1);
-    padding: 50px 150px 0 150px;
+    padding: 50px 30px 0 30px;
+    width: 100%;
     
 }
 .biodata_text{
@@ -115,6 +139,9 @@ section p.disc{
     padding-bottom: 80px;
     /* margin-top: 20px; */
 
+}
+.biodata_text h2 span{
+    color: var(--secondarycolor);
 }
 .mail{
   text-decoration: none;
@@ -133,15 +160,20 @@ section p.disc{
   background-color: var(--primecolour);
   color: white;
   color: var(--textcolor1);
-  /* display: flex; */
+  padding: 50px 20px 0 6px;
+  width: 100%;
+  
   
 }
 .my_service{
     margin: 0%;
-    padding: 40px;
+    padding: 20px;
+    color: var(--secondarycolor);
+    font-size: x-large;
     
    
 }
+
 .available_service{
   display: flex;
   
@@ -169,7 +201,44 @@ section p.disc{
     border: solid 5px #d7a4a4;
     padding: 20px;
     text-align: center;
-    height: 200px;
+    height: 250px;
     width: 400px;
     
+}
+.available_service a i{
+    color: white;
+    background-color: var(--secondarycolor);
+    padding: 10px;
+    border-radius: 50%;
+}
+.contact_form{
+    background-color: var(--blacklight);
+    color: var(--textcolour);
+    font-size: x-large;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}    
+.contact_form form label,input,textarea{
+    padding-bottom: 5px;
+    padding-right: 100px;
+    margin: 5px;
+}
+.herobtn{
+    margin-left: 60px;
+}   
+footer{
+    background-color: var(--primecolour);
+    color: var(--textcolour);
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    
+}
+footer a{
+    text-decoration: none;
+    color: var(--secondarycolor);
 }
